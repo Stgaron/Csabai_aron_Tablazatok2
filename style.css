@@ -17,3 +17,8 @@ tr:nth-child(even){background-color: lightgray;}
 div.tablecontainer {
   overflow-x: auto;
 }
+a{
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
