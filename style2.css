@@ -1,0 +1,33 @@
+table,tr,td,th{
+    border-collapse: collapse;
+
+}
+caption{
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+table{
+    margin: auto;
+    border: 3px solid black;
+    width: 600px;
+}
+thead{
+    background-color:lightblue;
+    font-size: 20px;
+    height: 40px;
+}
+tfoot{
+    border-top: 3px solid black;
+    font-weight: bold;
+}
+.tablecontainer{
+    overflow: x,auto;
+}
+td{
+    text-align: right;
+}
+td:nth-child(1){
+    text-align: left;
+}
